@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	background: linear-gradient(45deg, #b4b4b4, #40809a);
+	color: black;
+	display: flex;
+	flex-flow: column;
+	scroll-behavior: smooth;
+	align-items: center;
+}
+#touchDiv{
+	padding: 295px 0;
+    width: 100%;
+    text-align: center;
+}
+.buttons{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	cursor: pointer;
+}
+.whatsappImg{
+	width: 25px;
+	vertical-align: middle;
+}
+.code {
+			text-align: end;
+			margin-top: 250px;
+			display: block;
+
+		}
+input:focus{
+	transition-duration: 2s;
+	border-bottom: 2px solid black;
+	border-radius: 15px;
+}
+
+input{
+	color: white;
+    outline: none;
+    background-color: #000000b3;
+    border: 1ps solid black;
+    padding: 5px;
+    font-weight: 700;
+    width: 150px;
+    margin: 10px 0 25px 0;
+}
+h4{
+	margin: auto;
+    color: rgb(42 40 19);
+   
+    text-shadow: 1px 1px 2px #f1f1f1, 0 0 1em #272743, 0 0 0.2em #e0e0e0;
+    font-weight: 600;
+    font-size: larger;
+    font-family: monospace;
+}
+#gif{
+	width: 100%;
+	margin: 15px 0 ;
+	
+}
+.generate{
+	
+    justify-content:center;
+	  flex-flow: column;
+	    display: flex;
+    z-index: 5;
+    bottom: 5px;
+    background: #4db8b2;
+    padding: 15px;
+    position: fixed;
+    border-radius: 13px;
+    border: 5px solid;
+    border-style: double;
+    height: 45px;
+    align-items: baseline
+}
+button{
+	box-shadow: -3px 3px #375059;
+	      background: #00000073;
+    border-radius: 15px;
+    width: 100px;
+    margin: 5px;
+    border-color: #1b1b17;
+    /* box-shadow: inset -1px 3px 6px yellow; */
+    padding: 10px;
+    color: yellow;
+    font-weight: 700;
+    animation: buttonAnimation 1.8s infinite;
+}
+#greet{
+	display: none;
+	padding: 10px;
+	    animation-iteration-count: inherit;
+/* 	font-family: 'Cinzel Decorative', cursive; */
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: large;
+}
+#greet h3{
+font-family: 'Noto Serif Gurmukhi', 'Cinzel Decorative', 'cursive';
+margin-top: 7px;
+}
+
+#greet h2{
+	margin: auto;
+	width: 75%;
+	text-shadow: 2px 3px 2px #81fff7f7, 0 0 1em #3f2c2c00, 0 0 0.2em #8d621600;
+	font-family: 'Cinzel Decorative', cursive;
+}
+h2{
+	
+	animation: anim infinite;
+	animation-duration:  3s;
+/* 	animation-iteration-count: infinite; */
+	animation-fill-mode:forwards;
+	text-align: center;
+/* 	animation-play-state: paused; */
+}
+
+@keyframes entry{
+	 0% {
+    scale: .1;
+}
+	100%{
+		 scale: 1;
+	}
+}
+
+@keyframes anim {
+         0% {
+    color:  #c01b58;
+
+}
+
+40% {
+    color: #880e4f;
+	    transform: scaleX(1.2);
+}
+60% {
+    /* color: rgb(87 81 13); */
+}
+100% {
+    color: #c90d52;
+	
+}}
+
+@keyframes buttonAnimation{
+0% {
+    scale: 0.8;
+}
+
+50% {
+    scale: 1.1;
+}
+100% {
+    scale: 0.8;
+}
+	
+}
+	
+#atContainer-d966ee010a7850684b15d27751514feb{
+	width: 15px;
+}
+#fr{
+	margin-top:-20px
+}

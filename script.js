@@ -2,7 +2,7 @@ let senderName;
 let generated = false;
 let audio2;
 let audio1;
-let newUrl = "https://happynewyeargreetings.vanshk605.repl.co/?";
+let newUrl = "https://vansh1190.github.io/HappyNewYearGreetings/?";
 const shareData = {
 	title: 'MDN',
 	text: 'Learn web development on MDN!',
@@ -84,7 +84,7 @@ let wShare2 = () => {
 
 
 let func = () => {
-	newUrl = "https://happynewyeargreetings.vanshk605.repl.co/?";
+	newUrl = "https://vansh1190.github.io/HappyNewYearGreetings/?";
 	let name = document.getElementById("name").value;
 	if (name == "") {
 		alert("Name field Cannot be Empty!");

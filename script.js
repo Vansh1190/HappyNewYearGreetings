@@ -4,8 +4,8 @@ let audio2;
 let audio1;
 let newUrl = "https://vansh1190.github.io/HappyNewYearGreetings/?";
 const shareData = {
-	title: 'MDN',
-	text: 'Learn web development on MDN!',
+	title: 'Happy New Year 2023',
+	text: 'ਤੁਹਾਨੂੰ ਤੇ ਤੁਹਾਡੇ ਸਾਰੇ ਪਰਿਵਾਰ ਨੂੰ ਨਵੇਂ ਸਾਲ ਦੀ ਲੱਖ ਲੱਖ ਵਧਾਈ ਹੋਵੇ ਜੀ ।',
 	url: window.location.href
 }
 

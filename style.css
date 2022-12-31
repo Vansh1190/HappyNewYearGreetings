@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-	background: linear-gradient(45deg, #b4b4b4, #40809a);
+	background: linear-gradient(90deg, #b4b4b4, #40809a);
 	color: black;
 	display: flex;
 	flex-flow: column;
